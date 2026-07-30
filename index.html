@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Site pessoal de Rogério Almeida, Professor de Direito e Servidor Público."
+    />
+    <meta name="theme-color" content="#12211b" />
+    <title>Rogério Almeida | Professor de Direito e Servidor Público</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Rogério Almeida — início">
+        <span class="brand-mark">RA</span>
+        <span>Rogério Almeida</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Abrir menu</span>
+      </button>
+
+      <nav id="menu" class="site-nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#atuacao">Atuação</a>
+        <a href="#principios">Princípios</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Direito · Educação · Serviço Público</p>
+          <h1>Conhecimento jurídico a serviço da <em>sociedade.</em></h1>
+          <p class="hero-intro">
+            Professor de Direito e Servidor Público, dedicado ao ensino,
+            à reflexão crítica e ao fortalecimento das instituições.
+          </p>
+          <a class="text-link" href="#sobre">
+            Conheça minha trajetória
+            <span aria-hidden="true">↘</span>
+          </a>
+        </div>
+
+        <div class="hero-panel reveal" aria-hidden="true">
+          <div class="hero-monogram">R</div>
+          <p>Razão, diálogo<br />e compromisso.</p>
+          <span class="hero-number">01</span>
+        </div>
+
+        <div class="scroll-note" aria-hidden="true">Role para descobrir</div>
+      </section>
+
+      <section id="sobre" class="about section">
+        <div class="section-label reveal">
+          <span>01</span>
+          <p>Sobre</p>
+        </div>
+        <div class="section-content about-grid">
+          <h2 class="reveal">Rogério<br />Almeida</h2>
+          <div class="about-copy reveal">
+            <p class="lead">
+              Uma trajetória construída entre a sala de aula e o serviço público.
+            </p>
+            <p>
+              Acredito no Direito como instrumento de cidadania e transformação
+              social. Minha atuação reúne experiência prática, estudo permanente
+              e o compromisso de tornar temas jurídicos mais claros, humanos e
+              próximos da realidade.
+            </p>
+            <p>
+              No ensino, busco estimular o pensamento crítico. No serviço público,
+              trabalho com responsabilidade, técnica e respeito ao interesse
+              coletivo.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="atuacao" class="expertise section">
+        <div class="section-label reveal">
+          <span>02</span>
+          <p>Atuação</p>
+        </div>
+        <div class="section-content">
+          <div class="expertise-item reveal">
+            <span class="item-number">01</span>
+            <div>
+              <h3>Docência em Direito</h3>
+              <p>
+                Ensino jurídico comprometido com clareza, profundidade e formação
+                de profissionais conscientes de seu papel social.
+              </p>
+            </div>
+          </div>
+          <div class="expertise-item reveal">
+            <span class="item-number">02</span>
+            <div>
+              <h3>Serviço Público</h3>
+              <p>
+                Experiência voltada à legalidade, à eficiência e à construção de
+                soluções que atendam ao interesse da sociedade.
+              </p>
+            </div>
+          </div>
+          <div class="expertise-item reveal">
+            <span class="item-number">03</span>
+            <div>
+              <h3>Pesquisa e Formação</h3>
+              <p>
+                Estudo contínuo e compartilhamento de conhecimento por meio de
+                aulas, debates e conteúdos jurídicos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="principios" class="principles section">
+        <div class="section-label light reveal">
+          <span>03</span>
+          <p>Princípios</p>
+        </div>
+        <div class="principles-content">
+          <blockquote class="reveal">
+            “Ensinar o Direito é também cultivar o diálogo, a cidadania e o
+            compromisso com o bem comum.”
+          </blockquote>
+          <div class="principles-list reveal">
+            <p><span>01</span> Ética</p>
+            <p><span>02</span> Conhecimento</p>
+            <p><span>03</span> Responsabilidade</p>
+            <p><span>04</span> Interesse público</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#inicio">
+        <span class="brand-mark">RA</span>
+        <span>Rogério Almeida</span>
+      </a>
+      <p>Professor de Direito · Servidor Público</p>
+      <p>© <span id="year"></span> Rogério Almeida</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
