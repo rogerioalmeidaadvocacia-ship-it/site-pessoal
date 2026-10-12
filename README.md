@@ -1,7 +1,8 @@
 # Site pessoal — Rogério Almeida
 
-Site institucional estático de Rogério Almeida, Professor de Direito e
-Servidor Público.
+Página estática da festa de 1 aninho do Rogério (Pequeno Príncipe Aviador),
+publicada em www.rogerioalmeida.com. Todo o conteúdo (estilos, scripts e
+imagens) está embutido em `index.html`.
 
 ## Executar localmente
 
