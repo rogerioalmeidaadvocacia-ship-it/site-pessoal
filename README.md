@@ -9,7 +9,7 @@ imagens) está embutido em `public/index.html`.
 Qualquer servidor HTTP estático pode servir os arquivos. Exemplo:
 
 ```sh
-python -m http.server 8080
+python -m http.server 8080 -d public
 ```
 
 Abra `http://localhost:8080`.
